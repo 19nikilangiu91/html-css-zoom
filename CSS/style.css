@@ -26,7 +26,15 @@ header{
     margin: 0 20px;
 }
 
-li{
+#buttone{
+    list-style-type: none;
+    color:white;
+    background-color: grey;
+    margin: 10px 10px;
+    padding: 2px;
+}
+
+#buttontwo{
     list-style-type: none;
     color:white;
     background-color: grey;
@@ -97,6 +105,7 @@ main{
 
 footer{
     position: fixed;
+    flex-wrap: wrap;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -104,8 +113,57 @@ footer{
     
     /* DEBUG */
     background-color: #202020;
-    height: 50px;
+    /* height: 100px; */
 }
 
+.first-f-left{
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+    margin: 5px 0 0 20px ;
+    gap: 15px;
+    
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 60px;
+    padding-left: 18%;
+}
+
+.middleb{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 25px;
+    padding-left:210px;
+}
+
+#meeting-but{
+    color: red;
+    background-color: grey;
+    padding: 10px;
+}
+
+.last{
+    list-style-type: none;
+    margin-left: 13%;
+    text-align: center;
+}
+
+.first-b-left{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left:20px;
+    gap: 20px;
+    color: white;
+}
+
+li{
+    font-size: 20px;
+}
 
 
