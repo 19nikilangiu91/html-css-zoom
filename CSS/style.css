@@ -69,7 +69,7 @@ main{
 #flex-wrapper{
     display: flex;
     flex-wrap: wrap;
-    overflow:scroll;
+    overflow:auto;
     width: 100%;
     height: 100vh;
     margin: 10 auto;
@@ -164,6 +164,11 @@ footer{
 
 li{
     font-size: 20px;
+}
+
+span{
+    margin:0 10px;
+    color: white;
 }
 
 
